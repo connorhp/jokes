@@ -51,7 +51,6 @@ let app = new Vue({
                 console.log(error);
             }
         },
-
         addJokes() {
             let numAdded = 0;
             let numToAdd = this.numJokes - this.numJokesHave;
@@ -72,7 +71,6 @@ let app = new Vue({
                 }
             }
         },
-
         deleteJokes() {
             let numDeleted = 0;
             let numToDelete = this.numJokesHave - this.numJokes;
@@ -84,8 +82,6 @@ let app = new Vue({
                     if (numDeleted == numToDelete) return;
                 }
             }
-
         }
     }
-
 })
