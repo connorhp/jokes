@@ -1,0 +1,42 @@
+#header {
+    background-color: #9de3d0 !important;
+    padding-bottom: 25px;
+}
+
+#title {
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+#input {
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover,
+a:focus {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+body {
+    font-size: 16px;
+    background-color: white !important;
+    padding-bottom: 25px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#jokeBox {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #e8f9e9 !important;
+    padding-bottom: 15px;
+}
